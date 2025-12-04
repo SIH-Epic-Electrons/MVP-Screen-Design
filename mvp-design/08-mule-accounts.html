@@ -201,10 +201,30 @@
             
             <!-- Bottom Actions -->
             <div class="absolute bottom-0 left-0 right-0 bg-white border-t border-gray-100 p-4 pb-8">
-                <a href="09-freeze-confirmation.html" class="w-full py-3.5 bg-gradient-to-r from-red-500 to-red-600 text-white font-bold rounded-xl shadow-lg shadow-red-500/30 flex items-center justify-center gap-2 block">
+                <!-- Current Step Indicator -->
+                <div class="flex items-center justify-center gap-3 mb-3">
+                    <div class="flex items-center gap-1">
+                        <span class="w-6 h-6 bg-red-500 text-white text-xs font-bold rounded-full flex items-center justify-center">1</span>
+                        <span class="text-red-600 text-xs font-bold">FREEZE</span>
+                    </div>
+                    <div class="w-8 h-0.5 bg-gray-300"></div>
+                    <div class="flex items-center gap-1">
+                        <span class="w-6 h-6 bg-gray-300 text-gray-500 text-xs font-bold rounded-full flex items-center justify-center">2</span>
+                        <span class="text-gray-400 text-xs">Alert Teams</span>
+                    </div>
+                    <div class="w-8 h-0.5 bg-gray-300"></div>
+                    <div class="flex items-center gap-1">
+                        <span class="w-6 h-6 bg-gray-300 text-gray-500 text-xs font-bold rounded-full flex items-center justify-center">3</span>
+                        <span class="text-gray-400 text-xs">Intercept</span>
+                    </div>
+                </div>
+                
+                <a href="09-freeze-confirmation.html" class="w-full py-3.5 bg-gradient-to-r from-red-500 to-red-600 text-white font-bold rounded-xl shadow-lg shadow-red-500/30 flex items-center justify-center gap-2 block relative">
+                    <span class="absolute -top-2 left-4 px-2 py-0.5 bg-yellow-400 text-yellow-900 text-xs font-bold rounded-full shadow">⚡ PRIORITY #1</span>
                     <span class="material-symbols-outlined text-xl">block</span>
                     <span>Freeze All Active Accounts (2)</span>
                 </a>
+                <p class="text-center text-xs text-gray-500 mt-2">After freeze → Alert nearby police teams to intercept</p>
             </div>
         </div>
     </div>

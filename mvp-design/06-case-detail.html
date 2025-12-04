@@ -182,15 +182,26 @@
             
             <!-- Bottom Actions -->
             <div class="absolute bottom-0 left-0 right-0 bg-white border-t border-gray-100 p-4 pb-8">
+                <!-- Priority Hint -->
+                <div class="flex items-center justify-center gap-2 mb-3 text-xs">
+                    <span class="px-2 py-0.5 bg-red-100 text-red-700 font-bold rounded-full">STEP 1</span>
+                    <span class="text-gray-400">Freeze First</span>
+                    <span class="text-gray-300">→</span>
+                    <span class="px-2 py-0.5 bg-blue-100 text-blue-700 font-bold rounded-full">STEP 2</span>
+                    <span class="text-gray-400">Alert Teams</span>
+                </div>
                 <div class="flex gap-3">
-                    <a href="08-mule-accounts.html" class="flex-1 py-3.5 bg-gradient-to-r from-red-500 to-red-600 text-white font-bold rounded-xl shadow-lg shadow-red-500/30 flex items-center justify-center gap-2">
+                    <a href="08-mule-accounts.html" class="flex-1 py-3.5 bg-gradient-to-r from-red-500 to-red-600 text-white font-bold rounded-xl shadow-lg shadow-red-500/30 flex items-center justify-center gap-2 relative">
+                        <span class="absolute -top-2 -left-1 px-2 py-0.5 bg-yellow-400 text-yellow-900 text-xs font-bold rounded-full shadow">⚡ PRIORITY</span>
                         <span class="material-symbols-outlined text-xl">block</span>
                         <span>Freeze Accounts</span>
                     </a>
-                    <a href="18-team-status.html" class="w-14 h-14 bg-blue-600 text-white rounded-xl shadow-lg flex items-center justify-center">
+                    <a href="18-team-status.html" class="w-14 h-14 bg-blue-600 text-white rounded-xl shadow-lg flex items-center justify-center relative">
+                        <span class="absolute -top-2 -right-1 px-1.5 py-0.5 bg-blue-200 text-blue-800 text-xs font-bold rounded-full">2</span>
                         <span class="material-symbols-outlined text-2xl">groups</span>
                     </a>
                 </div>
+                <p class="text-center text-xs text-gray-400 mt-2">💡 Freeze first! Money moves in seconds, criminals travel in minutes.</p>
             </div>
         </div>
     </div>

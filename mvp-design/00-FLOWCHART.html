@@ -30,18 +30,18 @@
                 </div>
                 <div class="bg-slate-800/50 rounded-xl p-4">
                     <p class="text-3xl mb-2">🧠</p>
-                    <p class="text-white font-bold">2. AI Predicts Location</p>
-                    <p class="text-gray-400 text-sm">Where money will be withdrawn</p>
+                    <p class="text-white font-bold">2. AI Analyzes</p>
+                    <p class="text-gray-400 text-sm">Predicts ATM + Mule accounts</p>
+                </div>
+                <div class="bg-gradient-to-r from-red-600/30 to-orange-600/30 border border-red-500 rounded-xl p-4">
+                    <p class="text-3xl mb-2">⚡</p>
+                    <p class="text-red-400 font-bold">3. FREEZE First!</p>
+                    <p class="text-red-300 text-sm">Stop money in 47 seconds</p>
                 </div>
                 <div class="bg-gradient-to-r from-green-600/30 to-emerald-600/30 border border-green-500 rounded-xl p-4">
                     <p class="text-3xl mb-2">📍</p>
-                    <p class="text-green-400 font-bold">3. Alert Nearby Teams</p>
-                    <p class="text-green-300 text-sm">Police stations near predicted ATM</p>
-                </div>
-                <div class="bg-slate-800/50 rounded-xl p-4">
-                    <p class="text-3xl mb-2">🚔</p>
-                    <p class="text-white font-bold">4. Intercept & Freeze</p>
-                    <p class="text-gray-400 text-sm">Stop money withdrawal</p>
+                    <p class="text-green-400 font-bold">4. Alert & Intercept</p>
+                    <p class="text-green-300 text-sm">Nearby teams catch criminal</p>
                 </div>
             </div>
         </div>
@@ -167,20 +167,52 @@
                 
                 <div class="flex justify-center">
                     <div class="flex flex-col items-center">
+                        <div class="w-0.5 h-4 bg-red-600"></div>
+                        <span class="text-red-400 text-xs font-bold px-3 py-1 bg-red-500/20 rounded-full my-2">⚡ PRIORITY #1: FREEZE ACCOUNTS FIRST!</span>
+                        <div class="w-0.5 h-4 bg-red-600"></div>
+                    </div>
+                </div>
+                
+                <!-- Step 7: FREEZE ACTION (PRIORITY #1) -->
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white font-bold text-lg shrink-0">7</div>
+                    <a href="09-freeze-confirmation.html" class="flex-1 bg-gradient-to-r from-red-600 to-red-700 rounded-xl p-4 hover:scale-105 transition cursor-pointer block shadow-lg shadow-red-500/30">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-white font-bold text-lg">⚡ FREEZE ACCOUNTS via NPCI (PRIORITY #1)</p>
+                                <p class="text-white/80 text-sm">AEGIS sends freeze request → NPCI freezes mule accounts in <span class="text-yellow-300 font-bold">47 seconds!</span></p>
+                                <p class="text-yellow-300 text-xs mt-1">⭐ FREEZE FIRST: Money moves in seconds, criminals travel in minutes!</p>
+                            </div>
+                            <span class="text-white/70">09-freeze-confirmation.html →</span>
+                        </div>
+                        <div class="mt-3 bg-red-900/30 rounded-lg p-3">
+                            <p class="text-red-200 text-sm font-medium mb-2">Why Freeze First?</p>
+                            <ul class="text-red-100 text-xs space-y-1">
+                                <li>• Money transfers in SECONDS (electronic)</li>
+                                <li>• Criminal travels in MINUTES (physical)</li>
+                                <li>• <span class="text-yellow-300 font-bold">Freeze = Money SAFE, can be recovered</span></li>
+                                <li>• Freeze is reversible (can unfreeze if wrong)</li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="flex justify-center">
+                    <div class="flex flex-col items-center">
                         <div class="w-0.5 h-4 bg-green-500"></div>
-                        <span class="text-green-400 text-xs font-bold px-3 py-1 bg-green-500/20 rounded-full my-2">⭐ KEY STEP: ALERT NEARBY TEAMS</span>
+                        <span class="text-green-400 text-xs font-bold px-3 py-1 bg-green-500/20 rounded-full my-2">📍 THEN: ALERT NEARBY TEAMS</span>
                         <div class="w-0.5 h-4 bg-green-500"></div>
                     </div>
                 </div>
                 
-                <!-- Step 7: ALERT NEARBY POLICE/LEA TEAMS - NEW STEP! -->
+                <!-- Step 8: ALERT NEARBY POLICE/LEA TEAMS -->
                 <div class="flex items-center gap-4">
-                    <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-lg shrink-0">7</div>
+                    <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-lg shrink-0">8</div>
                     <div class="flex-1 bg-gradient-to-r from-green-600/30 to-emerald-600/30 border-2 border-green-500 rounded-xl p-4">
                         <div class="flex items-center justify-between">
                             <div>
-                                <p class="text-green-400 font-bold text-lg">📍 Alert Nearby Police Stations / LEA Teams</p>
-                                <p class="text-gray-300 text-sm">AEGIS identifies police stations & teams near predicted withdrawal location</p>
+                                <p class="text-green-400 font-bold text-lg">📍 Alert Nearby Police Stations / LEA Teams (PRIORITY #2)</p>
+                                <p class="text-gray-300 text-sm">Now that money is frozen, send location to catch the criminal!</p>
                                 <div class="mt-2 flex gap-2">
                                     <a href="10-map-view.html" class="px-3 py-1.5 bg-green-600 hover:bg-green-700 text-white text-sm rounded-lg transition">
                                         View on Map →
@@ -197,29 +229,10 @@
                                 <li>• AEGIS shows predicted ATM on map with risk zone</li>
                                 <li>• <span class="text-yellow-300 font-bold">Nearby LEA teams are automatically alerted</span></li>
                                 <li>• Teams see: Predicted location, ETA to reach, Suspect description</li>
-                                <li>• Officer can deploy additional teams if needed</li>
+                                <li>• Criminal arrives at ATM → Card BLOCKED → Team ARRESTS!</li>
                             </ul>
                         </div>
                     </div>
-                </div>
-                
-                <div class="flex justify-center">
-                    <div class="w-0.5 h-8 bg-red-600"></div>
-                </div>
-                
-                <!-- Step 8: FREEZE ACTION -->
-                <div class="flex items-center gap-4">
-                    <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white font-bold text-lg shrink-0">8</div>
-                    <a href="09-freeze-confirmation.html" class="flex-1 bg-gradient-to-r from-red-600 to-red-700 rounded-xl p-4 hover:scale-105 transition cursor-pointer block shadow-lg shadow-red-500/30">
-                        <div class="flex items-center justify-between">
-                            <div>
-                                <p class="text-white font-bold text-lg">⚡ FREEZE ACCOUNTS via NPCI</p>
-                                <p class="text-white/80 text-sm">Officer clicks "Freeze" → NPCI freezes mule accounts in <span class="text-yellow-300 font-bold">47 seconds!</span></p>
-                                <p class="text-yellow-300 text-xs mt-1">⭐ Core feature: Prevents money from being withdrawn</p>
-                            </div>
-                            <span class="text-white/70">09-freeze-confirmation.html →</span>
-                        </div>
-                    </a>
                 </div>
                 
                 <div class="flex justify-center">
@@ -427,6 +440,12 @@
                     <p class="text-white font-bold">AI Analysis</p>
                     <p class="text-gray-400 text-xs">Full prediction details</p>
                 </a>
+                
+                <a href="21-case-report.html" class="bg-purple-600/30 border border-purple-500 rounded-xl p-4 text-center hover:bg-purple-600/40 transition cursor-pointer">
+                    <p class="text-2xl mb-2">📊</p>
+                    <p class="text-purple-400 font-bold">AI Case Report</p>
+                    <p class="text-purple-300 text-xs">Explainable AI insights</p>
+                </a>
             </div>
         </div>
         
@@ -447,9 +466,9 @@
                 
                 <p class="mb-4"><span class="text-cyan-400 font-bold">Step 6:</span> Officer reviews <span class="text-white font-semibold">Money Trail</span> (how money moved) and <span class="text-white font-semibold">Mule Accounts</span> (which accounts to freeze)</p>
                 
-                <p class="mb-4"><span class="text-green-400 font-bold">Step 7:</span> <span class="text-green-400 font-bold">⭐ ALERT NEARBY TEAMS!</span> AEGIS identifies police stations & LEA teams near the predicted ATM → <span class="text-yellow-300">Alerts are sent automatically</span> → Teams see location on map with ETA</p>
+                <p class="mb-4"><span class="text-red-400 font-bold">Step 7:</span> <span class="text-red-400 font-bold">⚡ FREEZE ACCOUNTS FIRST!</span> AEGIS sends freeze request to NPCI → Mule accounts frozen in <span class="text-yellow-400 font-bold">47 seconds!</span> → <span class="text-cyan-300">Why first? Money moves in seconds, criminals travel in minutes. Freeze = Money SAFE!</span></p>
                 
-                <p class="mb-4"><span class="text-red-400 font-bold">Step 8:</span> Officer clicks <span class="text-red-400 font-bold">"FREEZE ACCOUNTS"</span> → AEGIS sends request to NPCI → Mule accounts frozen in <span class="text-yellow-400 font-bold">47 seconds!</span></p>
+                <p class="mb-4"><span class="text-green-400 font-bold">Step 8:</span> <span class="text-green-400 font-bold">📍 THEN ALERT NEARBY TEAMS!</span> Now that money is frozen → AEGIS identifies police stations & LEA teams near the predicted ATM → <span class="text-yellow-300">Alerts are sent</span> → Teams intercept criminal at ATM (withdrawal will FAIL because account is frozen!)</p>
                 
                 <p class="mb-4"><span class="text-cyan-400 font-bold">Step 9:</span> After intervention → Officer fills <span class="text-white font-semibold">Outcome Feedback</span> (was prediction correct? money recovered?)</p>
                 
@@ -481,6 +500,7 @@
                 <a href="18-team-status.html" class="bg-green-700 hover:bg-green-600 rounded-lg p-2 text-white">18-team-status.html ⭐</a>
                 <a href="19-single-freeze.html" class="bg-slate-700 hover:bg-slate-600 rounded-lg p-2 text-gray-300">19-single-freeze.html</a>
                 <a href="20-ai-analysis.html" class="bg-slate-700 hover:bg-slate-600 rounded-lg p-2 text-gray-300">20-ai-analysis.html</a>
+                <a href="21-case-report.html" class="bg-purple-700 hover:bg-purple-600 rounded-lg p-2 text-white">21-case-report.html 📊</a>
             </div>
         </div>
         
