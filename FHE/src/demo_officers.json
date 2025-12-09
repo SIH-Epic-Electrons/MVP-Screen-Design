@@ -1,0 +1,41 @@
+{
+  "58662ac026e399fa7acf2d27a2ec9bd4bc66a710124009990e5d7bc4280cf12b": {
+    "name_encrypted": "Z0FBQUFBQnBOX2ViS0paTDdfWkI0T2U5V0dhRmZNbzBzOEVoSjJ4Q1l0SHQ3N0U5Zy0tMjB5OHhkanhLdWthZzNQLWZZU1ZJNjhLenYwcHppekdIdjF6YmxTNEh1b0lnVWc9PQ==",
+    "phone_encrypted": "Z0FBQUFBQnBOX2VidVc5Rlh0alU0VFh3TjVNcEVTRzl3RkZOdWk1OVdQYl82SS0tNHIyUzlpWm0tTWtTMlpnLXI1NDVtMUQyTzVkWm0zaDBRUmJCLVo0WDJmc3phNnF5VWc9PQ==",
+    "email_encrypted": "Z0FBQUFBQnBOX2ViVkNGMVJMeERzMDZGckphR3hnVm15Njd0Y3JUVmpHcW01SnFocDF1cUVYb0g4Z21JbXFYWEpNS0xuckxxRVowMHgyMUtadUM3bWdBTWRyeFJGVXRLakN1a1lxRHhuQ0dPUW1pZ0V5UnN2X1U9",
+    "badge_id_encrypted": "Z0FBQUFBQnBOX2ViZWpKVERVNzJad2hEeGt0RmttRmVmNkJPbnIzMDRHancyT2pyVnY0WGE0NzFCbndCZHUtMFVXMFV5ZWppS3JpR1dSUVpKb1lTVjdkeGVDRmJTaGFIa0E9PQ==",
+    "badge_id_hash": "58662ac026e399fa7acf2d27a2ec9bd4bc66a710124009990e5d7bc4280cf12b",
+    "is_active": true,
+    "is_verified": true,
+    "rank": "Sub Inspector",
+    "designation": "Cyber Crime Investigator",
+    "encryption_version": "1.0",
+    "encrypted_at": "1765274187.1918526"
+  },
+  "8c8f5eb3efb5d649ae3407fcebe3512cbd400f4dcac56a433dd369cfbbd38122": {
+    "name_encrypted": "Z0FBQUFBQnBOX2ViOUdKdEFtS0hYQTlvUk1na2NxaXc5MWF4MzJ1X05Mbm1hTUlINENBcl9FaGd2dENuVERVUk9MeW5yTDV4VV9SQWNIeURfQUlwU0hNRDNBTFNjLVFFOGc9PQ==",
+    "phone_encrypted": "Z0FBQUFBQnBOX2VieVcwdHVzZDZoMHA3RnFJV0FiVWVCRS1QdjN1Y1NBY0d4TlNxN1N0R2NLSE54OW12NG12TVdic0IxQUllR3JsZHNHUzFkWU81azJNbDF0VXVrYjF5NXc9PQ==",
+    "email_encrypted": "Z0FBQUFBQnBOX2VicXBybElISGstcmt4ekR0bV9pTVE2ZVZrdjBPcGFfdWNZY1JMbUhERFo3cTl1NXc1MklJYXo5RmptWTJ1dWxaZlVQYV90OGQyTzhBbHhSSmVQcURpVXZiOXEzOGVsNVNPX0huSHQxWHlodnc9",
+    "badge_id_encrypted": "Z0FBQUFBQnBOX2ViNjFtaGpTY0dPT25CTjBubkN0QVRuWkZnQll1ZkNwcnhsMTNVdWIwQmdYQkRHcVRjNkEzbDdlMHdVR2I0dzQyR2FjOHc0TE96bVNmc2xyMjBYckZ3N3c9PQ==",
+    "badge_id_hash": "8c8f5eb3efb5d649ae3407fcebe3512cbd400f4dcac56a433dd369cfbbd38122",
+    "is_active": true,
+    "is_verified": true,
+    "rank": "Assistant Sub Inspector",
+    "designation": "Field Officer",
+    "encryption_version": "1.0",
+    "encrypted_at": "1765274187.1918526"
+  },
+  "a5a21d1734746660ecb1f5fde61cbb7913c5ee5406d6b2861917dafad05883dd": {
+    "name_encrypted": "Z0FBQUFBQnBOX2ViZW5ZOUFUYWRjdzNacjlUQmhuZzZGbmxodkozVEwtRVh1dmFPbzFKWHpkWWpSTG9PR2kwSzF1MHIxM280S1ZQY1BMeWprN2VDRE9wc3lycTg0dWkxWEE9PQ==",
+    "phone_encrypted": "Z0FBQUFBQnBOX2ViUDVRRzNOWkxsbEpRLWpqbElfTU9lc0JfR0JfNlRvY0k0ano2M3dlSzZWalVtWFlnNXpFSEZGTzF2NVZBWm5pX195c21NaGR0eWRvUEJxTWFaVjZxeXc9PQ==",
+    "email_encrypted": "Z0FBQUFBQnBOX2ViSmE5bWJpakZ3OVJBbGNKV0FZemN4d19fQmJETTE4aWJpYnhfU3dQN3I5M2xYakZmNWtnWU5TRXFmNWd4bjNGV1BsU2ZabmlsRE93cXVycWpSLVRuUXhQUFk5Nmh4VmltNnZXaFRSTkdseUE9",
+    "badge_id_encrypted": "Z0FBQUFBQnBOX2ViSmt2RWN1VGc3UFdZVDhCSkd0STBsaDB6c01NQm9LZVJESTBId1BYR3BINE9yUnZZYjR1ZHIzdm10RTBBNEtSZnJkU190MFFuenlGYjRDMUgtd3BqaGc9PQ==",
+    "badge_id_hash": "a5a21d1734746660ecb1f5fde61cbb7913c5ee5406d6b2861917dafad05883dd",
+    "is_active": true,
+    "is_verified": true,
+    "rank": "Sub Inspector",
+    "designation": "Cyber Crime Unit",
+    "encryption_version": "1.0",
+    "encrypted_at": "1765274187.1918526"
+  }
+}

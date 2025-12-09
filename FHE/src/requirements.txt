@@ -1,0 +1,11 @@
+# FHE Officer Data Protection - Requirements
+
+# Core encryption library
+cryptography>=41.0.0
+
+# Optional: For advanced FHE (if using Microsoft SEAL)
+# seal-python>=3.7.0
+
+# For testing
+pytest>=7.4.0
+

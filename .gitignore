@@ -19,6 +19,10 @@
 !aegies-frontend/
 !aegies-frontend/**
 
+# Allow FHE folder and all its contents
+!FHE/
+!FHE/**
+
 # Allow .gitignore itself
 !.gitignore
 
@@ -243,4 +247,3 @@ dist/
 questions.txt
 *.notes
 notes.txt
-
